@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <test name="Testname(failed)">
+    <classes>
+      <class name="com.zohoAutomation.tests.Testcase2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clear"/>
+          <include name="setUp"/>
+          <include name="report"/>
+        </methods>
+      </class> <!-- com.zohoAutomation.tests.Testcase2 -->
+      <class name="com.zohoAutomation.tests.Testcase1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.zohoAutomation.tests.Testcase1 -->
+    </classes>
+  </test> <!-- Testname(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

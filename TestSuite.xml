@@ -1,0 +1,11 @@
+<suite name="Zoho Show Automation Suite">
+	<test name="Automation UseCases">
+		<classes>
+			<class name="com.zohoAutomation.tests.ListingPageTest"/>
+			<class name="com.zohoAutomation.tests.CustomSlideshowTest"/>
+			<class name="com.zohoAutomation.tests.SlideRightClickTest"/>
+			<class name="com.zohoAutomation.tests.FileOptionsTest"/>
+			<class name="com.zohoAutomation.tests.CommentsTest"/>
+		</classes>
+	</test>
+</suite>
